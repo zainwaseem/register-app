@@ -9,8 +9,8 @@ pipeline {
         RELEASE = "1.0.0"
         DOCKER_USER = "zaid57"
         DOCKER_PASS = "docker"
-        IMAGE_NAME =" ${DOCKER_USER}" + "/" + "${APP_NAME}"
-        IMAGE_TAG =" ${RELEASE} - ${BUILD_NUMBER}"
+        IMAGE_NAME ="${DOCKER_USER}" + "/" + "${APP_NAME}"
+        IMAGE_TAG =" ${RELEASE}-${BUILD_NUMBER}"
 
     }
 
