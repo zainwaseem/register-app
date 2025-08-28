@@ -15,6 +15,7 @@
     <label for="email"><b>Enter Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
+    <h1>Hello World from JSP lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</h1>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
